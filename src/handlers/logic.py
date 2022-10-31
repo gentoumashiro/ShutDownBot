@@ -57,4 +57,4 @@ def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(start, lambda message: message.text.lower().strip() in ('start', '/start'))
     dp.register_message_handler(reply_to_help, lambda message: message.text.lower().strip() in ("help", "/help"))
     dp.register_message_handler(power_off_pc, lambda message: message.text.lower().strip() in (
-        "shutdown my computer", "/shutdown my computer"))
+        "shutdown", "shutdown my computer", "/shutdown my computer"))
