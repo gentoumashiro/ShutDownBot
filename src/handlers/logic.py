@@ -35,7 +35,7 @@ async def reply_to_help(message: types.message) -> None:
                                     f"1) you can copy my git repo below and start this script on your local machine \n"
                                     f"2) you can add another telegram account id at: \n./cfg in ADMIN_ID list"
                                     f" \n\n----------------------------------------------\n"
-                                    f"GIT: \n----------------------------------------------")
+                                    f"GIT: https://github.com/gentoumashiro/ShutDownPC_bot\n----------------------------------------------")
 
 
 async def power_off_pc(message: types.message) -> None:
