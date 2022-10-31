@@ -13,3 +13,5 @@ and create a windows service (linux users will figure it out themselves ha-ha):
 	4.3 rebot ur pc and use it!
 
 5) P.S. for full use, preference get on the phone application "wake on lan" and setup it
+
+P.P.S for linux users: https://gist.github.com/ewenchou/be496b2b73be801fd85267ef5471458c
