@@ -1,7 +1,7 @@
 
 This bot is using to shutdown a local pc via telegram for using it u need:
 
-1) git clone https://github.com/gentoumashiro/ShutDownPC_bot.git
+1) git clone https://github.com/gentoumashiro/ShutDownBot.git
 2) cd ShutDownPC_bot
 3) type in console: python -m venv ./venv
 4) Then type: pip3 install -r requirements.txt
@@ -9,7 +9,7 @@ This bot is using to shutdown a local pc via telegram for using it u need:
 6) Now we need to create a exe file from main.exe, so type:
 	____________________________
 	6.1 pyinstaller --noconfirm --onefile --console "FULL PATH to \main.py"
-	like: pyinstaller --noconfirm --onefile --console "D:\ShutDownPC_bot\src\main.py"
+	like: pyinstaller --noconfirm --onefile --console "D:\ShutDownBot\src\main.py"
 
 	6.2 Then u can delete ShutDownPc_bot folder EXCEPT main.exe in dist folder. Save it.
 	____________________________
