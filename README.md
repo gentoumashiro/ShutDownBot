@@ -17,10 +17,12 @@ This bot is using to shutdown a local pc via telegram for using it u need:
 7) Now we need to create windows service (linux users will be do itt by themselves ha-ha)
 	____________________________
 	7.1 run cmd as administrator
+	
 	7.2 type: sc create ShutDownPC_BOT binPath={enter a pass to main.exe} DisplayName=″ShutDownBotService″ type=own start=auto
+	
 	7.3 rebot ur pc and use it!
 	____________________________
 
-5) P.S. for full use, preference get on the phone application "wake on lan" and setup it
+P.S. for full use, preference get on the phone application "wake on lan" and setup it
 
 P.P.S for linux users creating service: https://gist.github.com/ewenchou/be496b2b73be801fd85267ef5471458c
