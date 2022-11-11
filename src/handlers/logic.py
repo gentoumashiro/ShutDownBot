@@ -45,6 +45,8 @@ async def power_off_pc(message: types.message) -> None:
         for i in range(3, 0, -1):
             await bot.send_message(user_id, f"[{i}] Shutting down your pc...", reply_markup=kb_admin)
             sleep(1)
+        
+        await bot.send_message(ADMIN_ID[0], f"[-] Bot is done")
 
         match OPERATION_SYSTEM:
             case 'linux':
