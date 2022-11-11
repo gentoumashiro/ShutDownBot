@@ -3,7 +3,7 @@ This bot is using to shutdown a local pc via telegram for using it u need:
 
 1) git clone https://github.com/gentoumashiro/ShutDownBot.git
 2) cd ShutDownBot
-3) type in console: python -m venv ./venv
+3) type in console: python -m venv ./venv and run venv\scripts\activate
 4) Then type: pip3 install -r requirements.txt
 5) type in cmd notepade.exe src\cfg.py and add telegram account(s) id to: ADMIN_ID list
 6) Now we need to create a exe file from main.exe, so type:
