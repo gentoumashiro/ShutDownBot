@@ -2,7 +2,7 @@
 
 ## This bot is using to shutdown a local pc via telegram bot
 
-**To start, type: **
+To start, type: 
 
 	1) git clone https://github.com/gentoumashiro/ShutDownBot.git
 	2) cd ShutDownBot
